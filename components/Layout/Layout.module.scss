@@ -2,12 +2,12 @@
 
 /* vars */
 $img-width:75px;
-$bg-color:'black';
-$primary:'white';
+$bgcolor:black;
+$primary:white;
 $margin-1:1rem;
 
 .container{
-    background: 'black';
+    background: $bgcolor;
     color:$primary;
     width:100%;
     min-height: 100vh;
