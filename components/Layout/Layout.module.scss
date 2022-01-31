@@ -1,0 +1,29 @@
+@import '../../styles/mixins';
+
+/* vars */
+$img-width:75px;
+$bg-color:'black';
+$primary:'white';
+$margin-1:1rem;
+
+.container{
+    background: 'black';
+    color:$primary;
+    width:100%;
+    min-height: 100vh;
+    position:relative;
+}
+.footer{
+    width:100%;
+    position: absolute;
+    bottom:0;
+    margin:auto;
+    @include flex-row-center;
+    padding:1rem;
+}
+
+.footer_icon{
+    max-width: $img-width;
+    @include flex-col-center;
+    margin:$margin-1;
+}
